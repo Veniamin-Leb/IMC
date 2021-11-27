@@ -221,8 +221,6 @@ body{
                     padding: 45px 48px;
                 }
                 span{
-                    border: 10px solid #F4F1F1;
-                    border-radius: 50%;
                     font-size: 40px;
                     padding: 0;
                     margin: 0;
@@ -332,6 +330,9 @@ body{
         border-radius: 123px;
         margin: 50px 0 0;
     }
+    .foryou__mobile{
+        display: none;
+    }
     .foryou__people{
         width: 100%;
         display: flex;
@@ -402,8 +403,9 @@ body{
     background-size: cover;
     background-position: center;
     padding-top: 200px;
-    padding-bottom: 80px;
+    padding-bottom: 150px;
     color: #FFFFFF;
+    position: relative;
 
     h2{
         width: 100%;
@@ -460,11 +462,8 @@ body{
         }
         .desc__text{
             width: 60%;
-
             ul{
-
                 list-style-image: url("../IMG/dot.svg");
-                
                 li{
                     padding-left: 26px;
                     margin-bottom: 30px;
@@ -497,8 +496,6 @@ body{
                     }
                     .star__desc{
                         width: 50%;
-
-                        
                         span{
                             text-align: left;
                             font-family: 'TT Norms Bold';
@@ -520,6 +517,9 @@ body{
                 }
             }
         }
+        .desc__imgmob{
+            display: none;
+        }
         .desc__img{
             width: 38%;
         }
@@ -527,5 +527,15 @@ body{
     .teacer__button{
         width: 100%;
         text-align: center;
+    }
+    .teacher__arrow{
+        position: absolute;
+        bottom: 21%;
+        right: 32%;
+    }
+    .teacher__cool{
+        position: absolute;
+        top: 22%;
+        right: 20%;
     }
 }

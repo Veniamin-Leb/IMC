@@ -1,0 +1,332 @@
+@media(max-width:850px){
+
+    .main{
+        background-position: right!important;
+        .main__logo{
+            margin: 30px 0!important;
+        }
+        .main__content{
+            p{
+                font-size: 16px!important;
+                line-height: 148.02%!important;
+            }
+            h1{
+                font-size: 32px!important;
+                line-height: 38px!important;
+            }
+            h2{
+                font-size: 18px!important;
+                line-height: 21px!important;
+            }
+        }
+        .main__button{
+            flex-direction: column;
+            background: none!important;
+            p{
+                background: rgba(255, 255, 255, 0.12);
+                border-radius: 58px;
+                padding-left: 35px;
+
+                padding: 30px 0;
+            }
+        }
+        .main__dude{
+            width: 90%!important;
+            margin: 0 auto;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .lesson{
+        background: none!important;
+        h2{
+            text-align: center!important;
+            font-size: 28px!important;
+            line-height: 33px!important;
+        }
+        .lesson__blocks{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 76px 0 61px;
+    
+            .block{
+                margin: 0 auto;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .line{
+        display: none!important;
+    }
+    .foryou{
+        margin-top: 70px;
+        h2{
+            font-size: 28px!important;
+            line-height: 33px!important;
+        }
+        .foryou__mobile{
+            width: 100%;
+            display: flex!important;
+            flex-wrap: wrap;
+            .mobile{
+                width: 100%;
+                padding: 0 30px;
+                display: flex;
+                flex-wrap: wrap;
+                h3{
+                    width: 100%;
+
+                    font-family: 'TT Norms Medium';
+                    font-size: 32px;
+                    line-height: 46px;
+    
+                    color: #333333;
+                    text-align: center;
+                }
+                .mobile__img{
+                    width: 100%;
+                    display: flex;
+                    img{
+                        margin: 0 auto;
+                    }
+                    
+                }
+                .mobile__text{
+                    ul{
+                        list-style-image: url("../IMG/gal.svg");
+                        li{
+                            font-weight: 400;
+                            font-size: 18px;
+    
+                            color: #333333;
+                            padding-left: 10px;
+                            margin-bottom: 20px;
+                        }
+    
+                    }
+                }
+            }
+        }
+        .foryou__people{
+            display: none!important;  
+        }
+    }
+    .teacer{
+        background-position-x: 20%!important;
+        padding-top: 250px!important;
+        h2{
+            font-size: 28px!important;
+            line-height: 44px!important;
+
+        }
+        p{
+            width: 100%;
+            font-family: 'TT Norms Bold';
+            font-size: 25.84px;
+            line-height: 30px;
+            text-align: center;
+            margin-top: 80px;
+        }
+        .teacher__desc{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            p{
+                text-align: center!important;
+            }
+            .desc__text{
+                width: 100%;
+                ul{
+                    width: 100%;
+                }
+                .text__star{
+                    width: 100%!important;
+                    flex-direction: column;
+                    .star{
+                        width: 100%!important;
+                        max-width: 100%!important;;
+                        margin-bottom: 20px;
+                        .star__img{
+                            width: 50%;
+                            max-width: 50px;
+                            text-align: center;
+                            margin-right: 26px;
+                        }
+                        .star__desc{
+                            width: 50%;
+                            span{
+                                text-align: left;
+                                font-family: 'TT Norms Bold';
+                                font-size: 25.84px;
+                                line-height: 30px;
+                            }
+                            p{
+                                text-align: left;
+                                font-weight: 400;
+                                font-size: 13px;
+                                line-height: 22px;
+                                padding: 0;
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .star:last-child{
+                        max-width: 255px;
+                    }
+                }
+            }
+            .desc__imgmob{
+                width: 100%;
+                display: flex!important;
+                img{
+                    margin: 0 auto;
+                }
+            }
+            .desc__img{
+                width: 38%;
+                display: none;
+            }
+        }
+        .teacher__arrow{
+            display: none;
+        }
+        .teacher__cool{
+            display: none
+        }
+    }
+}
+@media(max-width:500px){
+    .main{
+        .main__content{
+            h1{
+                font-size: 30px!important;
+                line-height: 50px!important;
+            }
+            h2{
+                font-size: 17px!important;
+                line-height: 21px!important;
+            }
+        }
+        .main__button{
+            width: 90%!important;
+            padding-left: 0!important;
+            p{
+                width: 100%;
+                font-size: 16px!important;
+                line-height: 24px!important;
+
+                padding: 30px 0!important;
+            }
+        }
+        .main__dude{
+            width: 90%!important;
+            margin: 0 auto;
+            img{
+                width: 100%;
+                margin-left: -50px!important;
+            }
+        }
+    }
+    .lesson{
+        .lesson__blocks{
+            .block{
+                width: 80%!important;
+                margin: 0 auto;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .foryou{
+        .foryou__mobile{
+            .mobile{
+                padding: 0!important;
+            }
+        }
+    }
+    .teacer{
+        background: #055BE4!important;
+        margin-top: 90px;
+        padding-top: 0!important;
+        h2{
+            margin: 30px 0!important;
+        }
+        p{
+            font-size: 18px!important;
+            line-height: 21px!important;
+            padding: 0!important;
+            margin-top: 30px!important;
+        }
+        button{
+            font-size: 10px!important;
+            line-height: 24px;
+        }
+        .teacher__desc{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            p{
+                text-align: center!important;
+            }
+            .desc__text{
+                width: 100%!important;
+                ul{
+                    width: 80%;
+                    margin: 30px auto;
+                    font-size: 16px!important;
+                    line-height: 24px!important;
+                }
+                .text__star{
+                    width: 90%!important;
+                    margin: 0 auto;
+                    padding: 0!important;
+                    .star{
+                        width: 100%!important;
+                        max-width: 300px!important;
+                        .star__desc{
+                            width: 60%;
+                            span{
+                                text-align: left;
+                                font-family: 'TT Norms Bold';
+                                font-size: 22px!important;
+                                line-height: 30px;
+                            }
+                            p{
+                                text-align: left!important;
+                                font-weight: 400;
+                                font-size: 10px!important;
+                                line-height: 22px;
+                                padding: 0!important;
+                                margin: 0!important;
+                            }
+                        }
+                    }
+                }
+            }
+            .desc__imgmob{
+                width: 100%;
+                display: flex!important;
+                img{
+                    width: 80%;
+                    margin: 0 auto;
+                }
+            }
+            .desc__img{
+                width: 38%;
+                display: none;
+            }
+        }
+        .teacher__arrow{
+            display: none;
+        }
+        .teacher__cool{
+            display: none
+        }
+    }
+}
