@@ -1,0 +1,543 @@
+@font-face {
+  font-family: 'TT Norms Regular';
+  src: url("TTNorms-Regular.eot");
+  src: url("TTNorms-Regular.eot?#iefix") format("embedded-opentype"), url("TTNorms-Regular.woff") format("woff"), url("TTNorms-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms Bold';
+  src: url("TTNorms-Bold.eot");
+  src: url("TTNorms-Bold.eot?#iefix") format("embedded-opentype"), url("TTNorms-Bold.woff") format("woff"), url("TTNorms-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms Medium Italic';
+  src: url("TTNorms-MediumItalic.eot");
+  src: url("TTNorms-MediumItalic.eot?#iefix") format("embedded-opentype"), url("TTNorms-MediumItalic.woff") format("woff"), url("TTNorms-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms Medium';
+  src: url("TTNorms-Medium.eot");
+  src: url("TTNorms-Medium.eot?#iefix") format("embedded-opentype"), url("TTNorms-Medium.woff") format("woff"), url("TTNorms-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'TT Norms Regular';
+}
+
+body button {
+  transition: all linear .3s;
+}
+
+body button:hover {
+  background: #9464c0;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1175px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  width: 100%;
+  background: url("../IMG/main__bcg.png");
+  background-size: cover;
+  padding-bottom: 80px;
+}
+
+.main .main__logo {
+  width: 100%;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.main .main__content {
+  width: 100%;
+  text-align: center;
+}
+
+.main .main__content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.main .main__content h1 {
+  font-family: 'TT Norms Bold';
+  font-size: 43.7838px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.main .main__content h1 span {
+  background: #448BFB;
+  border-radius: 75.4054px;
+  padding: 8px 16px;
+}
+
+.main .main__content h1 span:last-child {
+  padding: 0;
+  background: transparent;
+  text-decoration: wavy underline rgba(255, 255, 255, 0.38);
+}
+
+.main .main__content h2 {
+  font-family: 'TT Norms Medium Italic';
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.main .main__button {
+  width: 50%;
+  max-width: 550px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 58px;
+  padding-left: 35px;
+}
+
+.main .main__button p {
+  font-family: 'TT Norms Bold';
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.19);
+  padding: 30px 0;
+}
+
+.main .main__button p svg {
+  margin-right: 14px;
+}
+
+.main .main__button button {
+  font-family: 'TT Norms Bold';
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.19);
+  background: #7A32BD;
+  box-shadow: 0px 4px 0px #5B258D;
+  border-radius: 123px;
+  padding: 30px 66px;
+}
+
+.main .main__dude {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main .main__dude img {
+  margin-left: -150px;
+}
+
+.lesson {
+  width: 100%;
+  background: url("../IMG/dotsbckg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.lesson h2 {
+  width: 100%;
+  text-align: left;
+  font-family: 'TT Norms Bold';
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.lesson button {
+  padding: 36px 66px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.19);
+  background: #7A32BD;
+  box-shadow: 0px 4px 0px #5B258D;
+  border-radius: 123px;
+}
+
+.lesson .lesson__blocks {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 76px 0 61px;
+}
+
+.lesson .lesson__blocks .block {
+  width: 33%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lesson .lesson__blocks .block .block__title {
+  width: 116px;
+  height: 116px;
+  margin: 0 auto;
+  background: #FECA04;
+  border-radius: 107px;
+  position: relative;
+  z-index: 1;
+}
+
+.lesson .lesson__blocks .block .block__title p {
+  font-family: 'TT Norms Bold';
+  font-size: 18px;
+  line-height: 0;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 45px 48px;
+}
+
+.lesson .lesson__blocks .block .block__title span {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+  line-height: 100%;
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  z-index: 2;
+}
+
+.lesson .lesson__blocks .block .block__text {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333333;
+  padding-top: 28px;
+}
+
+.lesson .lesson__blocks .block .block__text span {
+  font-family: 'TT Norms Medium';
+}
+
+.lesson .lesson__blocks .block:nth-child(2) .block__title {
+  background: #0260FE;
+}
+
+.lesson .lesson__blocks .block:last-child .block__title {
+  background: #F26122;
+}
+
+.lesson .lesson__button {
+  width: 100%;
+  text-align: center;
+}
+
+.line {
+  width: 100%;
+  height: 350px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.line span {
+  width: 120%;
+  background: #F26122;
+  transform: rotate(-6.1deg);
+  top: 40%;
+  left: -10%;
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.line span ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.foryou {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.foryou h2 {
+  width: 100%;
+  text-align: center;
+  font-family: 'TT Norms Bold';
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 80px;
+}
+
+.foryou button {
+  padding: 36px 66px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.19);
+  background: #7A32BD;
+  box-shadow: 0px 4px 0px #5B258D;
+  border-radius: 123px;
+  margin: 50px 0 0;
+}
+
+.foryou .foryou__mobile {
+  display: none;
+}
+
+.foryou .foryou__people {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foryou .foryou__people .people {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foryou .foryou__people .people .people__img {
+  width: 50%;
+  height: 382px;
+  text-align: right;
+  position: relative;
+  border-radius: 79px;
+}
+
+.foryou .foryou__people .people .people__img img {
+  position: absolute;
+  top: -110px;
+  left: -60%;
+}
+
+.foryou .foryou__people .people .people__text {
+  width: 45%;
+  margin-bottom: 150px;
+}
+
+.foryou .foryou__people .people .people__text h3 {
+  font-family: 'TT Norms Medium';
+  font-size: 32px;
+  line-height: 46px;
+  color: #333333;
+}
+
+.foryou .foryou__people .people .people__text ul {
+  list-style-image: url("../IMG/gal.svg");
+}
+
+.foryou .foryou__people .people .people__text ul li {
+  font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.foryou .foryou__people .people:last-child .people__img {
+  text-align: left;
+  left: 40%;
+}
+
+.foryou .foryou__people .people:last-child .people__text {
+  margin-bottom: 0;
+}
+
+.foryou .foryou__button {
+  width: 100%;
+  text-align: center;
+}
+
+.teacer {
+  width: 100%;
+  display: flex;
+  background: url("../IMG/teacherbckg.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.teacer h2 {
+  width: 100%;
+  font-family: 'TT Norms Bold';
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 80px 0;
+}
+
+.teacer h2 span {
+  text-decoration: wavy underline rgba(255, 255, 255, 0.38);
+}
+
+.teacer p {
+  width: 100%;
+  font-family: 'TT Norms Bold';
+  font-size: 25.84px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.teacer button {
+  padding: 36px 66px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.19);
+  background: #7A32BD;
+  box-shadow: 0px 4px 0px #5B258D;
+  border-radius: 123px;
+  margin: 40px 0;
+}
+
+.teacer .teacher__desc {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.teacer .teacher__desc p {
+  width: 100%;
+  font-family: 'TT Norms Bold';
+  font-size: 25.84px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 60px;
+  margin-top: 0;
+}
+
+.teacer .teacher__desc .desc__text {
+  width: 60%;
+}
+
+.teacer .teacher__desc .desc__text ul {
+  list-style-image: url("../IMG/dot.svg");
+}
+
+.teacer .teacher__desc .desc__text ul li {
+  padding-left: 26px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.teacer .teacher__desc .desc__text ul li:first-child {
+  font-family: 'TT Norms Medium';
+}
+
+.teacer .teacher__desc .desc__text .text__star {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+}
+
+.teacer .teacher__desc .desc__text .text__star .star {
+  width: 50%;
+  max-width: 305px;
+  display: flex;
+  background: #0C55C9;
+  border-radius: 42px;
+  padding: 11px 0 16px 21px;
+}
+
+.teacer .teacher__desc .desc__text .text__star .star .star__img {
+  width: 50%;
+  max-width: 50px;
+  text-align: center;
+  margin-right: 26px;
+}
+
+.teacer .teacher__desc .desc__text .text__star .star .star__desc {
+  width: 50%;
+}
+
+.teacer .teacher__desc .desc__text .text__star .star .star__desc span {
+  text-align: left;
+  font-family: 'TT Norms Bold';
+  font-size: 25.84px;
+  line-height: 30px;
+}
+
+.teacer .teacher__desc .desc__text .text__star .star .star__desc p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+.teacer .teacher__desc .desc__text .text__star .star:last-child {
+  max-width: 255px;
+}
+
+.teacer .teacher__desc .desc__imgmob {
+  display: none;
+}
+
+.teacer .teacher__desc .desc__img {
+  width: 38%;
+}
+
+.teacer .teacer__button {
+  width: 100%;
+  text-align: center;
+}
+
+.teacer .teacher__arrow {
+  position: absolute;
+  bottom: 21%;
+  right: 32%;
+}
+
+.teacer .teacher__cool {
+  position: absolute;
+  top: 22%;
+  right: 20%;
+}
